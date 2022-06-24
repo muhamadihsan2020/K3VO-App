@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/menuA">
+
+    <fragment
+        android:id="@+id/menuA"
+        android:name="com.example.k3vo.MenuA"
+        android:label="fragment_menu_a"
+        tools:layout="@layout/fragment_menu_a" />
+    <fragment
+        android:id="@+id/menuB"
+        android:name="com.example.k3vo.MenuB"
+        android:label="fragment_menu_b"
+        tools:layout="@layout/fragment_menu_b" />
+    <fragment
+        android:id="@+id/menuC"
+        android:name="com.example.k3vo.MenuC"
+        android:label="fragment_menu_c"
+        tools:layout="@layout/fragment_menu_c" />
+    <fragment
+        android:id="@+id/menuD"
+        android:name="com.example.k3vo.MenuD"
+        android:label="fragment_menu_d"
+        tools:layout="@layout/fragment_menu_d" />
+</navigation>
